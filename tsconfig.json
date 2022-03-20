@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+    "module": "commonjs",       
+    "outDir": "./build",                             
+    "rootDir": "./src", 
+    "target": "ES2018",
+    "lib": ["es2018"],
+    "allowJs": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
